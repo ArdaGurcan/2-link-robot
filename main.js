@@ -11,10 +11,14 @@ let points = [];
 let resolution = 2;
 let obstacles = [[100, 250, 50]];
 
+let open = [[70,2,]]
+let closed = []
+
 function setup() {
     angleMode(DEGREES);
     createCanvas(2 * h, h);
     rect(height + margin, margin, boxSize, boxSize);
+    generateCollision()
 }
 
 function draw() {
