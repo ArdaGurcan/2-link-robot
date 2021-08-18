@@ -11,7 +11,7 @@ let points = [];
 let resolution = 2;
 let obstacles = [[100, 250, 50]];
 
-let open = [[70,2,]]
+let open = [[70,2]]
 let closed = []
 
 function setup() {
